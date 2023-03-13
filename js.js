@@ -13,7 +13,8 @@ function addElementToDiv(e){
     let iconElement = document.querySelector("#icon-input")
     if(e.type === 'click')
     {
-            if(contentElement.value !== '' && contentElement.value.length >= 3 && categorySelectElement.value != 'none')
+            if(contentElement.value !== '' && contentElement.value.length >= 3 
+            && categorySelectElement.value !== 'none' && prioritySelectElement.value !== 'none')
             {
 
             
