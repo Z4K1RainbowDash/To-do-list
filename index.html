@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id ="user-input">
+    <input type="text" id="content-input" placeholder="Add new item...">
+
+    <select name="priority-select" id="priority-select-id">
+        
+        <option value="priority1">1</option>
+        <option value="priority2" selected>2</option>
+        <option value="priority3">3</option>
+        <option value="priority4">4</option>
+    </select>
+
+    <select name="category-select" id="category-select-id">
+            <option value="none" selected disabled hidden>Select a category</option>
+            <option value="to-buy">to buy</option>
+            <option value="work">work</option>
+            <option value="school">school</option>
+    </select>
+
+    
+
+    <input type="text" name="fontawesome-icon-input" id="icon-input" placeholder="Add fontawesome icon...">
+
+    <button id="new-todo-button"> Add Item</button>
+    </div>
+    <h2 class="h-align">To do list</h2>
+    <div id="todo-list" class="parent">
+        
+
+        <div class="div1">
+            <h2 class="h-align">To Buy</h2>
+            <ul id="to-buy-ul">
+            
+            </ul>
+        </div>
+        <div class="div2"> 
+            <h2 class="h-align">Work</h2>
+            <ul id="work-ul">
+            
+            </ul>
+        </div>
+        <div class="div3">
+            <h2 class="h-align">School</h2>
+            <ul id="school-ul">
+            
+            </ul>
+        </div>
+            
+        
+    </div>
+    <!-- icon tests
+        <i class="fa fa-car"></i>
+        <i class="fa fa-car" style="font-size:48px;"></i>
+        <i class="fa fa-car" style="font-size:60px;color:red;"></i>
+    -->
+    <script src="js.js"></script>
+    
+    
+</body>
+</html>
