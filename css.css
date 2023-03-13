@@ -24,6 +24,7 @@
     .div1, .div2, .div3{
         
         padding: 15px;
+        border-radius: 5px;
     }
 
     .prior-one{
@@ -74,7 +75,7 @@
       }
       
       #user-input select {
-        width: 320px;
+        width: 200px;
       }
       
       #user-input button {
